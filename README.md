@@ -17,6 +17,6 @@ Gostou do meu projeto? *Me ajude* deixando uma estrela nesse repositório, por f
 
  Segue o [Link para usar a Calculadora]()
 
-![apresentação](https://media.discordapp.net/attachments/935238082125525082/1004891802421178398/Yasmin_Souto.gif)
+![Apresentação](https://media.discordapp.net/attachments/935238082125525082/1004891802421178398/Yasmin_Souto.gif)
 
 
