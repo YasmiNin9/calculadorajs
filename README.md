@@ -17,6 +17,4 @@ Gostou do meu projeto? *Me ajude* deixando uma estrela nesse repositório, por f
 
  Segue o [Link para usar a Calculadora](https://calculajs.vercel.app)
 
-![Apresentação](https://media.discordapp.net/attachments/935238082125525082/1004891802421178398/Yasmin_Souto.gif)
-
 
