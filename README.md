@@ -15,8 +15,6 @@ Gostou do meu projeto? *Me ajude* deixando uma estrela nesse repositório, por f
 
 ### Acredito que esse seja um __bom__ projeto e bem __simples__ com Javascript para você praticar sua lógica e habilidades com a linguagem! Então, já aderiu a idéia? xD
 
- Segue o [Link para usar a Calculadora]()
-
-![apresentação](https://media.discordapp.net/attachments/935238082125525082/1004891802421178398/Yasmin_Souto.gif)
+ Segue o [Link para usar a Calculadora](https://calculajs.vercel.app)
 
 
