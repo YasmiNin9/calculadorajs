@@ -13,7 +13,7 @@ function sub() {
     var n1 = Number(tn1.value)
     var n2 = Number(tn2.value)
     var U = n1 - n2
-    su.innerHTML = `O resultado da soma dos valores é ${U}`
+    su.innerHTML = `O resultado da subtração dos valores é ${U}`
 }
 
 function multi() {
