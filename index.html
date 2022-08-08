@@ -10,10 +10,6 @@
 </head>
 <body>
     
-    <header>
-        <div class="logo"></div>
-    </header>
-    
     <h1>Adição de Valores</h1>
     
     <!--Não coloquei os elementos dentro de uma div por ser um exercício, acabei esquecendo na hora que fui fazendo-->
@@ -33,10 +29,17 @@
 
     <h1>Multiplicação de Valores</h1>
     <p> Use as caixas abaixo para multiplicar os valores que deseja!</p>
-    <input class="box" type="number" name="txtn1" id="mtn1" onmouseenter="entrouMu()"> *
+    <input class="box" type="number" name="txtn1" id="mtn1" onmouseenter="entrouMu()"> ×
     <input class="box" type="number" name="txtn2" id="mtn2">
     <input class="btn" type="button" value="Multiplicar" onclick="multi()">
     <p id="mu"> </p>
+
+    <h1>Divisão de Valores</h1>
+    <p> Use as caixas abaixo para dividir os valores que deseja!</p>
+    <input class="box" type="number" name="txtn1" id="dtn1" onmouseenter="entrouDi()"> ÷
+    <input class="box" type="number" name="txtn2" id="dtn2">
+    <input class="btn" type="button" value="Dividir" onclick="divi()">
+    <p id="di"> </p>
 
 
     <p class="ty"> 🙇‍♀️ Obrigada por usar minha calculadora! ♥  Esse é um exercício simples em que prático Javascript e manipulação de <strong>DOM.</strong></p>

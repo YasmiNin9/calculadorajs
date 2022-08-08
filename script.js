@@ -26,6 +26,15 @@ function multi() {
 
 }
 
+function divi() {
+    var tn1 = document.getElementById('dtn1')
+    var tn2 = document.getElementById('dtn2')
+    var n1 = Number(tn1.value)
+    var n2 = Number(tn2.value)
+    var D = n1 / n2
+    di.innerHTML = `O resultado da divisão dos valores é ${D}`
+}
+
 function entrouS() {
     som.innerHTML = `Digite um novo valor...`
 }
@@ -36,4 +45,8 @@ function entrySu(){
 
 function entrouMu(){
     mu.innerHTML = `Digite um novo valor...`
+}
+
+function entrouDi(){
+    di.innerHTML = `Digite um novo valor...`
 }
