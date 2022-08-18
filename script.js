@@ -5,6 +5,13 @@ function somar() {
     var n2 = Number(tn2.value)
     var S = n1 + n2
     som.innerHTML = `O resultado da soma dos valores é ${S}`
+    if (tn2.value.length == 0) { //verificação
+        window.alert(`Verifique os valores antes de continuar!`)
+        som.innerHTML = `Por favor, insira algum valor...`
+    } else if (tn1.value.length == 0){
+        window.alert(`Verifique os valores antes de continuar!`)
+        som.innerHTML = `Por favor, insira algum valor...`
+    }
 }
 
 function sub() {
@@ -14,6 +21,13 @@ function sub() {
     var n2 = Number(tn2.value)
     var U = n1 - n2
     su.innerHTML = `O resultado da subtração dos valores é ${U}`
+    if (tn2.value.length == 0){ //verificação
+        window.alert(`Verifique os valores antes de continuar!`)
+        su.innerHTML = `Por favor, insira algum valor...`
+    } else if (tn1.value.length == 0){
+        window.alert(`Verifique os valores antes de continuar!`)
+        su.innerHTML = `Por favor, insira algum valor...`
+    }
 }
 
 function multi() {
@@ -23,7 +37,13 @@ function multi() {
     var n2 = Number(tn2.value)
     var M = n1 * n2
     mu.innerHTML = `O resultado da multiplicação dos valores é ${M}`
-
+    if (tn2.value.length == 0){
+        window.alert(`Verifique os valores antes de continuar!`)
+        mu.innerHTML = `Por favor, insira algum valor...`
+    } else if (tn1.value.length == 0){
+        window.alert(`Verifique os valores antes de continuar!`)
+        mu.innerHTML = `Por favor, insira algum valor...`
+    }
 }
 
 function divi() {
@@ -33,6 +53,13 @@ function divi() {
     var n2 = Number(tn2.value)
     var D = n1 / n2
     di.innerHTML = `O resultado da divisão dos valores é ${D}`
+    if (tn2.value.length == 0){
+        window.alert(`Verifique os valores antes de continuar!`)
+        di.innerHTML = `Por favor, insira algum valor...`
+    } else if (tn1.value.length == 0){
+        window.alert(`Verifique os valores antes de continuar!`)
+        di.innerHTML = `Por favor, insira algum valor...`
+    }
 }
 
 function entrouS() {
