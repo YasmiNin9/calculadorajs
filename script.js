@@ -66,7 +66,7 @@ function entrouS() {
     som.innerHTML = `Digite um novo valor...`
 }
 
-function entrySu(){
+function entrouSu(){
     su.innerHTML = `Digite um novo valor...`
 }
 

@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
 
-* { padding: 0;
+* {
+    padding: 0;
     font-family: 'Inter', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 300;
     
 }
@@ -18,8 +19,7 @@ body {
     padding: 20px;
 }*/
 
-
-h1 {
+.calculo h1 {
     text-align: left;
     padding: 20px;
     text-transform: uppercase;
@@ -27,9 +27,18 @@ h1 {
     color: rgb(27, 34, 34);
 }
 
-p {
+.calculo p {
     padding: 15px;
     font-size: 1em;
+}
+
+.soma i {
+    color: rgb(15, 15, 15);
+    box-shadow: 1px black;
+}
+
+.wlc {
+    text-align: center;
 }
 
 .box {
@@ -50,18 +59,21 @@ p {
     padding: 5px;
     margin: 10px;
     border-radius: 5px;
-    background-color: cadetblue;
+    background-color: rgb(106, 199, 202);
     color: aliceblue;
     font-size: 1em;
     border: none;
     cursor: pointer;
 }
 
-.btn.hover {
-    background-color: rgb(113, 206, 209);
+.btn:hover {
+    background-color: rgb(128, 100, 179);
+    transition: 0.5s;
 }
 
-
+.msg {
+    margin: 10px;
+}
 .ty { 
     color: rgb(20, 67, 220);
     font-family: 'Poppins';
@@ -77,4 +89,15 @@ p {
     .box {
         font-size: 1em;
     }
+}
+
+@media only screen and (max-width:420px){
+
+    /*
+    .calculo {
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+    }*/
+
 }
