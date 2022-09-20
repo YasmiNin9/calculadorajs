@@ -1,7 +1,5 @@
 # Bem-vindo(a)! Você está no repositório da minha __Calculadora Javascript__!
 
-![calculadorapreview](https://media.discordapp.net/attachments/935238082125525082/1005975695983382588/calcula.png?width=1338&height=683)
-
 ## 🤔 __O que é esse projeto?__
 Esse projeto foi desenvolvido após uma aula do curso de __Javascript__ (40h) do __Curso em vídeo!__
 - O projeto consiste em uma calculadora de valores feita com **Javascript, HTML e CSS**.
